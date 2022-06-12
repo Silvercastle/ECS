@@ -18,7 +18,7 @@ func main() {
 }
 
 func hello(c echo.Context) error {
-	return c.String(http.StatusOK, "Hello, world!!!")
+	return c.String(http.StatusOK, "Hello, world!!! v2")
 }
 
 func ping(c echo.Context) error {
